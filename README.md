@@ -1,19 +1,19 @@
 # Company Bankrupcy Prediction
-📘 **Course:** [CSE343 / ECE363: Machine Learning](https://techtree.iiitd.edu.in/viewDescription/filename?=ECE363)  
-👨‍🏫 **Instructor:** [Dr. Jainendra Shukla](https://scholar.google.es/citations?user=QCZleNQAAAAJ&hl=en)  
-🏫 **Institution:** IIIT-Delhi  
-📅 **Semester:** Monsoon 2024  
-📁 **Dataset:** [Company Bankruptcy Prediction Dataset – Taiwan Economic Journal](https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction)
+**Course:** [CSE343 / ECE363: Machine Learning](https://techtree.iiitd.edu.in/viewDescription/filename?=ECE363)  
+**Instructor:** [Dr. Jainendra Shukla](https://scholar.google.es/citations?user=QCZleNQAAAAJ&hl=en)  
+**Institution:** IIIT-Delhi  
+**Semester:** Monsoon 2024  
+**Dataset:** [Company Bankruptcy Prediction Dataset – Taiwan Economic Journal](https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction)
 
 ---
 
-## 💡 Project Overview
+## Project Overview
 
 This project explores the application of machine learning models to predict the financial sustainability of enterprises. Given a high-dimensional dataset with 96 financial indicators from Taiwanese firms (1999–2009), we built a classification framework to predict whether a company is at risk of bankruptcy. Our motivation stems from the need for early financial distress warning systems that aid policymakers, investors, and stakeholders in mitigating risks.
 
 ---
 
-## 🔍 Objectives
+## Objectives
 
 - Analyze financial health indicators to predict bankruptcy risks.
 - Handle real-world challenges such as class imbalance and multicollinearity.
@@ -22,7 +22,7 @@ This project explores the application of machine learning models to predict the 
 
 ---
 
-## 📊 Dataset Description
+## Dataset Description
 
 - **Source:** Taiwan Economic Journal (1999–2009)
 - **Size:** 6819 records, 96 features
@@ -32,14 +32,14 @@ This project explores the application of machine learning models to predict the 
 
 ---
 
-## 🧪 Methodology
+## Methodology
 
-### 📌 Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA)
 - Detected severe class imbalance (only ~100 bankrupt firms)
 - Identified multicollinearity via correlation matrix
 - Outlier detection in critical financial features
 
-### 🔧 Data Preprocessing
+### Data Preprocessing
 - Class imbalance handled using:  
   `RandomOverSampler`, `RandomUnderSampler`, `SMOTE`, `ADASYN`, `CondensedNearestNeighbor`, and `Tomek Links`
 - Multicollinearity resolved using correlation-based feature pruning
@@ -47,7 +47,7 @@ This project explores the application of machine learning models to predict the 
 
 ---
 
-## 🧠 Models Implemented
+## Models Implemented
 
 | Model                | Highlights |
 |---------------------|-----------|
@@ -61,7 +61,7 @@ This project explores the application of machine learning models to predict the 
 
 ---
 
-## 📈 Results (Test Set Highlights)
+## Results (Test Set Highlights)
 
 | Model             | Accuracy | Precision | Recall | F1 Score | ROC AUC |
 |------------------|----------|-----------|--------|----------|---------|
@@ -74,7 +74,7 @@ This project explores the application of machine learning models to predict the 
 
 ---
 
-## ✅ Key Takeaways
+## Key Takeaways
 
 - High recall models (SVMs, Logistic Regression) are crucial for real-world bankruptcy risk minimization.
 - Feature selection significantly improved performance and interpretability.
@@ -83,16 +83,7 @@ This project explores the application of machine learning models to predict the 
 
 ---
 
-## 👨‍💻 Contributors
-
-- **Rishi Pendyala** – EDA, Preprocessing, Feature Selection, Model Training, Documentation  
-- **Palak Bhardwaj** – EDA, Feature Selection, Documentation  
-- **Yashovardhan Singhal** – Literature Survey, Model Training, Presentation  
-- **Kuber Budhija** – EDA, Preprocessing, Model Training, Presentation
-
----
-
-## 📚 References
+## References
 
 - Barboza et al., *Machine learning models and bankruptcy prediction*, ESWA, 2017  
 - Nanxi Wang, *Bankruptcy Prediction Using ML*, JMF, 2017  
