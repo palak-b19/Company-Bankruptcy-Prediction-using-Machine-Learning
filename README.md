@@ -3,7 +3,7 @@
 📘 **Course:** [CSE343 / ECE363: Machine Learning](https://techtree.iiitd.edu.in/viewDescription/filename?=ECE363)  
 👨‍🏫 **Instructor:** [Dr. Jainendra Shukla](https://scholar.google.es/citations?user=QCZleNQAAAAJ&hl=en)  
 🏫 **Institution:** IIIT-Delhi  
-🧪 **Project Type:** Midsem Course Project  
+🧪 **Semester:** Monsoon 2024 
 📁 **Dataset:** [Company Bankruptcy Prediction Dataset – Taiwan Economic Journal](https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction)
 
 ---
