@@ -1,4 +1,4 @@
-# Company Bankrupcy Prediction
+# Company Bankruptcy Prediction
 **Course:** [CSE343 / ECE363: Machine Learning](https://techtree.iiitd.edu.in/viewDescription/filename?=ECE363)  
 **Instructor:** [Dr. Jainendra Shukla](https://scholar.google.es/citations?user=QCZleNQAAAAJ&hl=en)  
 **Institution:** IIIT-Delhi  
