@@ -29,6 +29,7 @@ This project explores the application of machine learning models to predict the 
 - **Size:** 6819 records, 96 features
 - **Target Variable:** `Bankrupt?` (binary classification: 0 or 1)
 - **Feature Types:** Financial ratios (e.g., ROA, Asset Growth, Revenue/Share)
+- [Kaggle Dataset](https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction)
 
 ---
 
